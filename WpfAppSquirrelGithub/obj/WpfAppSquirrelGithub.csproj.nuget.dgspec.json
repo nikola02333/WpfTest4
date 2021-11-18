@@ -1,0 +1,91 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\nikola.velickovic\\Desktop\\test123\\WpfAppSquirrelGithub\\WpfAppSquirrelGithub\\WpfAppSquirrelGithub.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\nikola.velickovic\\Desktop\\test123\\WpfAppSquirrelGithub\\WpfAppSquirrelGithub\\WpfAppSquirrelGithub.csproj": {
+      "version": "1.0.1",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\nikola.velickovic\\Desktop\\test123\\WpfAppSquirrelGithub\\WpfAppSquirrelGithub\\WpfAppSquirrelGithub.csproj",
+        "projectName": "WpfAppSquirrelGithub",
+        "projectPath": "C:\\Users\\nikola.velickovic\\Desktop\\test123\\WpfAppSquirrelGithub\\WpfAppSquirrelGithub\\WpfAppSquirrelGithub.csproj",
+        "packagesPath": "C:\\Users\\nikola.velickovic\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\nikola.velickovic\\Desktop\\test123\\WpfAppSquirrelGithub\\WpfAppSquirrelGithub\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\nikola.velickovic\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0-windows7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://artifacts1/nuget/main": {}
+        },
+        "frameworks": {
+          "net5.0-windows7.0": {
+            "targetAlias": "net5.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0-windows7.0": {
+          "targetAlias": "net5.0-windows",
+          "dependencies": {
+            "NuGet.CommandLine": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.11.0, )"
+            },
+            "squirrel.windows": {
+              "target": "Package",
+              "version": "[1.9.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[5.0.12, 5.0.12]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
